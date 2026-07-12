@@ -39,6 +39,9 @@ IoC breaks the rigid bonds in our code, making the application incredibly flexib
 ⚙️ Spring Dependency Injection: Setter and Constructor Injection Lifecycle
 
 
+### 📂 Project Structure
+
+```text
 📂 spring-dependency-injection
  ├── 📦 src
  │    └── 📦 main
@@ -49,4 +52,4 @@ IoC breaks the rigid bonds in our code, making the application incredibly flexib
  │                   ├── 📄 Vanilla.java       🍨 (Component Implementation)
  │                   ├── 📄 Baby.java          👶 (Target Component - Setter/Constructor Injection)
  │                   └── 📄 BabyTest.java      🧪 (Main Class - ApplicationContext & getBean)
- └── 📄 pom.xml                                🛠️ (Maven Configuration)
+ └── 📄 pom.xml                                🛠️ (Maven Configuration)                               🛠️ (Maven Configuration)
