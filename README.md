@@ -26,13 +26,20 @@ IoC breaks the rigid bonds in our code, making the application incredibly flexib
 📱 Decoupling Architecture: Loosely Coupled Sim & Mobile via Field Injection
 
 
-📱 Spring Framework Dependency Injection Example
-├── src/main/java/com/example
-│   ├── Sim.java          (Interface)
-│   ├── Jio.java          (Component Implementation)
-│   ├── Airtel.java       (Component Implementation)
-│   ├── Mobile.java       (Target Component with @Autowired Sim)
-│   └── MobileTest.java   (Main class calling getBean)
+### 📂 Project Structure
+
+```text
+📂 spring-dependency-injection
+ ├── 📦 src
+ │    └── 📦 main
+ │         └── 📂 java
+ │              └── 📂 sping_abc
+ │                   ├── 📄 Icecream.java      🛑 (Interface)
+ │                   ├── 📄 Chocolate.java     🍦 (Component Implementation)
+ │                   ├── 📄 Vanilla.java       🍨 (Component Implementation)
+ │                   ├── 📄 Baby.java          👶 (Target Component - Setter/Constructor Injection)
+ │                   └── 📄 BabyTest.java      🧪 (Main Class - ApplicationContext & getBean)
+ └── 📄 pom.xml                                🛠️ (Maven Configuration)
 
 
 
