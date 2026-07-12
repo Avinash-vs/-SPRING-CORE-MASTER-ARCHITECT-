@@ -17,3 +17,19 @@ the responsibility is handed over entirely to an external manager—the **Spring
 
 By removing the creation power from individual classes and giving it to the framework,
 IoC breaks the rigid bonds in our code, making the application incredibly flexible, modular, and easy to scale! 🚀
+
+
+
+
+
+
+📱 Decoupling Architecture: Loosely Coupled Sim & Mobile via Field Injection
+
+
+📱 Spring Framework Dependency Injection Example
+├── src/main/java/com/example
+│   ├── Sim.java          (Interface)
+│   ├── Jio.java          (Component Implementation)
+│   ├── Airtel.java       (Component Implementation)
+│   ├── Mobile.java       (Target Component with @Autowired Sim)
+│   └── MobileTest.java   (Main class calling getBean)
