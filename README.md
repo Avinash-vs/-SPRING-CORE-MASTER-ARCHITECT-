@@ -23,8 +23,7 @@ IoC breaks the rigid bonds in our code, making the application incredibly flexib
 
 
 
-📱 Decoupling Architecture: Loosely Coupled Sim & Mobile via Field Injection
-
+**📱 Decoupling Architecture: Loosely Coupled Sim & Mobile via Field Injection**
 
 ### 📂 Project Structure
 
@@ -43,8 +42,7 @@ IoC breaks the rigid bonds in our code, making the application incredibly flexib
 
 
 
-⚙️ Spring Dependency Injection: Setter and Constructor Injection Lifecycle
-
+**⚙️ Spring Dependency Injection: Setter and Constructor Injection Lifecycle**
 
 ### 📂 Project Structure
 
