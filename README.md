@@ -28,17 +28,17 @@ IoC breaks the rigid bonds in our code, making the application incredibly flexib
 ### 📂 Project Structure
 
 ```text
-📂 spring-dependency-injection
+📂 spring-core-master-architect
  ├── 📦 src
  │    └── 📦 main
  │         └── 📂 java
- │              └── 📂 sping_abc
- │                   ├── 📄 Icecream.java      🛑 (Interface)
- │                   ├── 📄 Chocolate.java     🍦 (Component Implementation)
- │                   ├── 📄 Vanilla.java       🍨 (Component Implementation)
- │                   ├── 📄 Baby.java          👶 (Target Component - Setter/Constructor Injection)
- │                   └── 📄 BabyTest.java      🧪 (Main Class - ApplicationContext & getBean)
- └── 📄 pom.xml                                🛠️ (Maven Configuration)
+ │              └── 📂 com.example
+ │                   ├── 📄 Sim.java         🛑 (Interface)
+ │                   ├── 📄 Jio.java         📱 (Component Implementation)
+ │                   ├── 📄 Airtel.java      📶 (Component Implementation)
+ │                   ├── 📄 Mobile.java      📱 (Target Component - Field Injection)
+ │                   └── 📄 MobileTest.java  🧪 (Main Class - ApplicationContext & getBean)
+ └── 📄 pom.xml                               🛠️ (Maven Configuration)                                🛠️ (Maven Configuration)
 
 
 
