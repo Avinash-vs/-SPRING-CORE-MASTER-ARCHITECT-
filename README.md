@@ -33,3 +33,20 @@ IoC breaks the rigid bonds in our code, making the application incredibly flexib
 │   ├── Airtel.java       (Component Implementation)
 │   ├── Mobile.java       (Target Component with @Autowired Sim)
 │   └── MobileTest.java   (Main class calling getBean)
+
+
+
+⚙️ Spring Dependency Injection: Setter and Constructor Injection Lifecycle
+
+
+📂 spring-dependency-injection
+ ├── 📦 src
+ │    └── 📦 main
+ │         └── 📂 java
+ │              └── 📂 sping_abc
+ │                   ├── 📄 Icecream.java      🛑 (Interface)
+ │                   ├── 📄 Chocolate.java     🍦 (Component Implementation)
+ │                   ├── 📄 Vanilla.java       🍨 (Component Implementation)
+ │                   ├── 📄 Baby.java          👶 (Target Component - Setter/Constructor Injection)
+ │                   └── 📄 BabyTest.java      🧪 (Main Class - ApplicationContext & getBean)
+ └── 📄 pom.xml                                🛠️ (Maven Configuration)
