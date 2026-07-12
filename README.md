@@ -26,35 +26,40 @@ IoC breaks the rigid bonds in our code, making the application incredibly flexib
 **📱 Decoupling Architecture: Loosely Coupled Sim & Mobile via Field Injection**
 
 ### 📂 Project Structure
-
 ```text
-📂 spring-core-master-architect
- ├── 📦 src
- │    └── 📦 main
- │         └── 📂 java
- │              └── 📂 com.example
- │                   ├── 📄 Sim.java         🛑 (Interface)
- │                   ├── 📄 Jio.java         📱 (Component Implementation)
- │                   ├── 📄 Airtel.java      📶 (Component Implementation)
- │                   ├── 📄 Mobile.java      📱 (Target Component - Field Injection)
- │                   └── 📄 MobileTest.java  🧪 (Main Class - ApplicationContext & getBean)
- └── 📄 pom.xml                               🛠️ (Maven Configuration)                                🛠️ (Maven Configuration)
+📂 DI
+ ├── 📦 src/main/java
+ │    └── 📂 controller
+ │         ├── 📄 Sim.java         🛑 (Interface)
+ │         ├── 📄 Jio.java         📱 (Component Implementation)
+ │         ├── 📄 Airtel.java      📶 (Component Implementation)
+ │         ├── 📄 Mobile.java      📱 (Target Component - Field Injection)
+ │         ├── 📄 Myconfig.java    ⚙️ (Spring Configuration Class)
+ │         └── 📄 Mobiletest.java  🧪 (Main Class - Test Execution)
+ ├── 📦 src/main/resources
+ ├── 📦 src/test/java
+ ├── 📦 src/test/resources
+ └── 📄 pom.xml                      🛠️ (Maven Configuration)
+                             
 
 
 
-**⚙️ Spring Dependency Injection: Setter and Constructor Injection Lifecycle**
+**⚙️ Spring Dependency Injection: Setter and Constructor Injection Lifecycle*
 
 ### 📂 Project Structure
 
 ```text
-📂 spring-dependency-injection
- ├── 📦 src
- │    └── 📦 main
- │         └── 📂 java
- │              └── 📂 sping_abc
- │                   ├── 📄 Icecream.java      🛑 (Interface)
- │                   ├── 📄 Chocolate.java     🍦 (Component Implementation)
- │                   ├── 📄 Vanilla.java       🍨 (Component Implementation)
- │                   ├── 📄 Baby.java          👶 (Target Component - Setter/Constructor Injection)
- │                   └── 📄 BabyTest.java      🧪 (Main Class - ApplicationContext & getBean)
- └── 📄 pom.xml                                🛠️ (Maven Configuration)                               🛠️ (Maven Configuration)
+📂 DIwithconstructor
+ ├── 📦 src/main/java
+ │    ├── 📂 sping_abc
+ │    │    ├── 📄 Icecream.java      🛑 (Interface)
+ │    │    ├── 📄 Chocolate.java     🍦 (Component Implementation)
+ │    │    ├── 📄 Venilla.java       🍨 (Component Implementation)
+ │    │    ├── 📄 Baby.java          👶 (Target Component)
+ │    │    └── 📄 TestBaby.java      🧪 (Main Class - Test Execution)
+ │    └── 📂 spring_def
+ │         └── 📄 Myconfig.java      ⚙️ (Spring Configuration Class)
+ ├── 📦 src/main/resources
+ ├── 📦 src/test/java
+ ├── 📦 src/test/resources
+ └── 📄 pom.xml                      🛠️ (Maven Configuration)
